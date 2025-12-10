@@ -1,3 +1,21 @@
 Options -Indexes
+
+# Habilitar reescritura de URLs
+RewriteEngine On
+RewriteBase /
+
+# Redirigir rutas sin .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L,QSA]
+
+# Redirigir /equipo a equipo.php (explícito)
+RewriteRule ^equipo$ equipo.php [L]
+
+# Página de inicio
+RewriteRule ^$ index.php [L]
+
+# Páginas de error personalizadas (mantén las tuyas)
 ErrorDocument 403 /rutasp_beta/403.php
 ErrorDocument 404 /rutasp_beta/404.php
