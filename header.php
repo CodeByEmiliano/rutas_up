@@ -51,14 +51,14 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php" class="active">Inicio</a></li>
+          <li><a href="/" class="active">Inicio</a></li>
           
           <li class="dropdown">
             <a href="#"><span>Nosotros</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="quienes-somos.php">Quiénes Somos</a></li>
               <li><a href="mision-vision.php">Misión, Visión y Valores</a></li>
-              <li><a href="equipo.php">Nuestro Equipo</a></li>
+              <li><a href="/equipo">Nuestro Equipo</a></li>
             </ul>
           </li>
                
