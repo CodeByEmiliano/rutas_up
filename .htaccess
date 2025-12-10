@@ -1,0 +1,3 @@
+Options -Indexes
+ErrorDocument 403 /rutasp_beta/403.php
+ErrorDocument 404 /rutasp_beta/404.php

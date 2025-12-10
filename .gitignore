@@ -1,0 +1,17 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración con datos sensibles
+config.php
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
