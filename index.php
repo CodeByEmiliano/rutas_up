@@ -42,7 +42,7 @@
         <img src="assets/img/RutasUpLOGO.png" alt="App RutasUp" class="img-fluid rounded">
       </div>
       <div class="project-description" data-aos="fade-left">
-        <h3>Transformando tu experiencia de transporte---Eric Estuvo aqui</h3>
+        <h3>Transformando tu experiencia de transporte---Eric Estuvo aqui.</h3>
         <p>RutasUp es un sistema de navegación diseñado para revolucionar el transporte público en Chetumal, ofreciendo:</p>
         <ul>
           <li><i class="bi bi-check-circle"></i> Ubicación en tiempo real de combis</li>
